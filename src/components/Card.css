@@ -1,0 +1,9 @@
+.card-image {
+    width: 200px;
+    height: auto;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 25px;
+}
