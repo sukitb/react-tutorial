@@ -1,11 +1,11 @@
 import './Card.css'
 
-export default function Card() {
+export default function Card(props) {
 
     return (
         <div className='card'>
-            <img className="card-image" src="https://s.isanook.com/ca/0/ui/279/1396205/download20190701165129_1562561119.jpg" />
-            <p>สุกิต</p>
+            <img className="card-image" src={props.image_url} />
+            <p>{props.name}</p>
         </div>
     )
 }
